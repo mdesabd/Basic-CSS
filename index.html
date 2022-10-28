@@ -1,18 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Basic CSS Code</title>
 </head>
-<body>
-    
+
+
+<div>
+    <h1>How to add CSS file in Html page</h1>
+    <p>When a browser reads a style sheet, it will format the HTML document according to the information in the style
+        sheet.</p>
+
+    <p>Three Ways to Insert CSS</p>
+
+    <p>There are three ways of inserting a style sheet:</p>
+
+    <ul>
+        <li>External CSS</li>
+
+        <li>Internal CSS</li>
+
+        <li>Inline CSS</li>
+    </ul>
+
+    <p>External CSS- show the code</p>
+
+    <div>
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <link rel="stylesheet" href="mystyle.css">
+        </head>
+
+        <body>
+
+            <h1>This is a heading</h1>
+            <p>This is a paragraph.</p>
+
+        </body>
+
+        </html>
+    </div>
+
+    <p> Add this link into head part in html page</p>
+
+    <link rel="stylesheet" href="style.css">
+</div>
+
+
+<div>
+    <h1>CSS Example</h1>
+    <pre>body {
+        background-color: lightblue;
+      }
+      
+      h1 {
+        color: white;
+        text-align: center;
+      }
+      
+      p {
+        font-family: verdana;
+        font-size: 20px;
+      }</pre>
+</div>
+
+
+<div>
+    <h1>CSS Syntax</h1>
+    <p>A CSS rule consists of a selector and a declaration block.</p>
+
+    <img src="img_selector.gif" alt="" srcset="">
+</div>
+
+
+<div>
+    <p>Example Explained
+    </p>
+
+    <ul>
+        <li> h1 is a selector in CSS (it points to the HTML element you want to style:
+
+        </li>
+        <li>color is a property, and red is the property value</li>
+        <li>text-align is a property, and center is the property value</li>
+    </ul>
+</div>
+
+
+<div>
+    <h1>The CSS Box Model</h1>
+    <p>In CSS, the term "box model" is used when talking about design and layout.</p>
+    <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders,
+        padding, and the actual content. The image below illustrates the box model:</p>
+
+    <img src="boxModel.jpg" alt="" srcset="">
+</div>
+
+
+<div>
+    <h1>Block-level Elements</h1>
+    <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the
+        left and right as far as it can).</p>
+    <img src="blockElement.jpg" alt="" srcset="">
+</div>
+
+
+<div>
+    <h1>Inline Elements</h1>
+    <p>An inline element does not start on a new line and only takes up as much width as necessary.</p>
+
+    <img src="inlineElement.jpg" alt="" srcset="">
+</div>
+
+
 </body>
+
 </html>
-
-
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/mdesabd/basic-CSS.git
-git push -u origin main
